@@ -48,18 +48,53 @@ section{
 }
 
 /* #end Utility region */
+.blue{
+    background-color: blue;
+}
 
+.pink{
+    background-color: pink;
+}
+
+.light_blue{
+    background-color: lightblue;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.black{
+    background-color: black;
+}
+
+.green{
+    background-color: green;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.acqua{
+    background-color: aqua;
+}
+
+
+/* #end background color */
 
 #header{
     display: flex;
     height: 50px;
     justify-content: center;
     align-items: center;
+    background-color: azure;
 }
 
 .logo, .link, .login{
     height: 36px;
     border: 1px solid black;
+    background-color: orange;
 
 }
 
@@ -99,6 +134,7 @@ footer{
     height: 80px;
     align-items: flex-end;
     justify-content: center;
+    margin-top: 3px;
 }
 
 .div_footer{
